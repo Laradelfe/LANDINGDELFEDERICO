@@ -358,17 +358,28 @@ body {
 
 /* NAV */
 
-  .nav {
-    flex-direction: column;
+.nav {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+    background-color: #3E2723;
+
+    position: relative;
+    display: flex;
+    justify-content: center; /* centra el contenido */
     align-items: center;
-    text-align: center;
-    gap: 10px;
+  }
+
+  .logo {
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .menu {
     display: none;
-    justify-content: center;
-    gap: 15px;
   }
 
   /*HERO*/
